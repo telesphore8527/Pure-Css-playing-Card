@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+    height: 100vh;
+}
+.i3, .i5, .trois, .heart, .diams{
+    color:red;
+}
+.container{
+    text-align: center;
+    font-size: 20px;
+}
+/*5*/
+#playing-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+/*6*/
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 300px;
+    background-color: snow;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    border: 2px solid #000;
+    padding: 5px;
+}
+/*7*/
+.left{
+    display: flex;
+    align-self: flex-start;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.right{
+    display: flex;
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+
+.one-spade, .club, .heart, .diams{
+    font-size: 70px;
+}
+.diams{
+    text-align: center;
+}
+.club-two{
+    transform: rotate(180deg);
+}
+.heart-three{
+    transform: rotate(180deg);
+}
