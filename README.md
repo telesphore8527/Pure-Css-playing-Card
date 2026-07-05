@@ -39,3 +39,5 @@ Simply double-click the index.html file to open it in any modern web browser, or
 - Component Layouts: Organizing repeating child elements uniformly with precise boundary padding and box-shadow enhancements.  
   **License**  
 This project is open-source and available under the MIT License.
+
+**created by Telesphore8527**
